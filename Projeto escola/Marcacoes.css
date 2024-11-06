@@ -2,7 +2,7 @@
     text-decoration:none;
 }   
 body{
-    background-size:100%;
+    background-size:cover;
     background-color:#B0C4DE;
     background-image:url(./Imagens/Background.jpg);
     background-repeat: no-repeat;
@@ -63,7 +63,10 @@ button:hover{
 
 @media screen and (max-width:480px){
     body{
-        background-size:150%;
+        background-position: center;
+        background-attachment: fixed;
+        background-size:cover;
+        background-image:url(./Imagens/Background.jpg);
         justify-content: center;
         align-items: center;
     
@@ -73,6 +76,7 @@ button:hover{
         justify-content: center;
         text-align: center;
         margin-right:10px;
+        margin-top:70px;
     }
     h2{
         font-size:30px;
