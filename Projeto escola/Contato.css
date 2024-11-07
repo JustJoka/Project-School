@@ -37,6 +37,7 @@ img{
     flex-direction:row;
     border-radius:10%;
     object-fit:cover;
+    margin-right:10px;
     
     
 }
@@ -64,28 +65,36 @@ p{
 }
 
 @media screen and (max-width: 480px){
+    body{
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        flex-direction:column
+    }
     .container{
         justify-content: center;
 
     }
     img{
-        justify-content: space-evenly;
-        margin:25px;
+        justify-content: space-around;
+        margin:20px;
+        margin-right:20px;
         padding:18px;
-        display:block;
-        height:50px;
-        width:50px;
-        flex-direction:row;
-        border-radius:10px;
+        display:flex;
+        height:60px;
+        width:60px;
+        border-radius:40px;
+        flex-direction:column
+        
         
     }
     h1{
-        font-size:50px
+        font-size:55px
     }
     p{
         justify-content: space-evenly;
         margin:0px;
-        font-size:11px;
+        font-size:9px;
         text-align:center;
     }
    
